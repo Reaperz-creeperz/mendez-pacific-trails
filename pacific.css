@@ -144,6 +144,30 @@ section {
     display: none;
 }
 
+table {
+    margin: auto;
+    border: 1px solid #3399CC;
+    width: 90%;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 5px;
+    border: 1px solid #3399CC;
+}
+
+td {
+    text-align: center;
+}
+
+.text {
+    text-align: left;
+}
+
+tr:nth-of-type(even) {
+    background-color: #DFEDF8;
+}
+
 @media screen and (min-width: 600px) {
     h1 {
         font-size: 2em;
